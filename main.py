@@ -6,5 +6,6 @@ def farewell():
     return "Goodbye, GitHub!"
 
 
-print(greet())
-print(farewell())
+if __name__ == "__main__":
+    print(greet())
+    print(farewell())
